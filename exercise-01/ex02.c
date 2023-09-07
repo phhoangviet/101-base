@@ -6,10 +6,10 @@
 */
 
 // Hàm này tính giá trị ước chung lớn nhất của 2 số a và b và trả về giá trị UCLN
+#include<stdio.h>
 int calcUCLN(int a, int b)
 {
     // Code here
-    {
         int ucln;
         for (int i = 1; i <= a || i <= b; i++) {
             if (a % i == 0 && b % i == 0) {
@@ -17,8 +17,10 @@ int calcUCLN(int a, int b)
             }
         }
         return ucln;
-    }
+    
     // return về giá trị UCLN vừa tính được
+
+    // tìm 1 cách khác để tính UCLN
 }
 
 // Hàm này tính giá trị bội chung của 2 số a và b và trả về giá trị BCNN
@@ -29,11 +31,13 @@ int calcBCNN(int a, int b)
     
     // return về giá trị BCNN
     return bcnn;
+
+    //tìm cách khác để tìm bội chung nhỏ nhất
 }
 int main()
 {
-    int a = 10;
-    int b = 12;
+    int a = 198;
+    int b = 2375;
     int ucln = calcUCLN(a, b);
     int bcnn = calcBCNN(a, b);
 

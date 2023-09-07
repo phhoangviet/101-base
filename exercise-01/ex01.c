@@ -6,7 +6,7 @@
     3. Tính tổng các phần tử có giá trị chẵn trong mảng đã cho và in ra giá trị đó
     - Tạo biến sumEven
 */
-
+#include<stdio.h>
 int main()
 {
     int a[] = {5, 9, 2, 3, 1, 123, 23, 4, 2, 9, 10, 0, 23, 9, 7, 6, 5};
@@ -18,7 +18,7 @@ int main()
     for (int i = 0; i < size; i++) {
         sumAll += a[i];
     }
-    printf("sum: %d/n", sumAll);
+    printf("sum: %d\n", sumAll);
     
 
 
@@ -29,7 +29,7 @@ int main()
 
         }
     }
-    printf("sumOdd: %d/n", sumOdd);
+    printf("sumOdd: %d\n", sumOdd);
 
 
     int sumEven = 0 ;
@@ -39,7 +39,7 @@ int main()
 
         }
     }
-    printf("sumEven: %d/n", sumEven);
+    printf("sumEven: %d\n", sumEven);
        return 0;
         
 }

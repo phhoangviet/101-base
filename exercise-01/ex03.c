@@ -4,7 +4,7 @@
     2. Tìm phần tử có giá trị nhỏ nhất trong mảng đã cho và in ra giá trị đó
     - Nếu được in ra vị trí của phần tử đó trong mảng
 */
-
+#include<stdio.h>
 int main()
 {
     int a[] = {8,
@@ -38,7 +38,7 @@ int main()
         }
     }
     // in ra phan tu trong mang 
-    printf("Phan tu lon nhat trong mang la: %d\n", max);
-    printf("Phan tu nho nhat trong mang la: %d\n", min);
+    printf("Phan tu lon nhat trong mang la: %d\n & %d\n", max, maxIndex);
+    printf("Phan tu nho nhat trong mang la: %d\n & %d\n", min, minIndex);
     return 0;
 }
