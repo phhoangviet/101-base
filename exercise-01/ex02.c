@@ -6,18 +6,20 @@
 */
 
 // Hàm này tính giá trị ước chung lớn nhất của 2 số a và b và trả về giá trị UCLN
-#include<stdio.h>
+#include <stdio.h>
 int calcUCLN(int a, int b)
 {
     // Code here
-        int ucln;
-        for (int i = 1; i <= a || i <= b; i++) {
-            if (a % i == 0 && b % i == 0) {
-                ucln = i;
-            }
+    int ucln;
+    for (int i = 1; i <= a || i <= b; i++)
+    {
+        if (a % i == 0 && b % i == 0)
+        {
+            ucln = i;
         }
-        return ucln;
-    
+    }
+    return ucln;
+
     // return về giá trị UCLN vừa tính được
 
     // tìm 1 cách khác để tính UCLN
@@ -27,12 +29,13 @@ int calcUCLN(int a, int b)
 int calcBCNN(int a, int b)
 {
     // Code here
-    int bcnn = (a * b)/ calcUCLN(a,b);
-    
+    int bcnn = (a * b) / calcUCLN(a, b);
+
     // return về giá trị BCNN
     return bcnn;
 
-    //tìm cách khác để tìm bội chung nhỏ nhất
+    // tìm cách khác để tìm bội chung nhỏ nhất
+    //
 }
 int main()
 {
@@ -47,5 +50,3 @@ int main()
     printf("BCNN cua %d va %d la: %d\n", a, b, bcnn);
     return 0;
 }
-
-
