@@ -11,8 +11,10 @@ int calcUCLN(int a, int b)
     // Code here
     {
         int ucln;
-        for (int i = 1; i <= a || i <= b; i++) {
-            if (a % i == 0 && b % i == 0) {
+        for (int i = 1; i <= a || i <= b; i++)
+        {
+            if (a % i == 0 && b % i == 0)
+            {
                 ucln = i;
             }
         }
@@ -25,8 +27,8 @@ int calcUCLN(int a, int b)
 int calcBCNN(int a, int b)
 {
     // Code here
-    int bcnn = (a * b)/ calcUCLN(a,b);
-    
+    int bcnn = (a * b) / calcUCLN(a, b);
+
     // return về giá trị BCNN
     return bcnn;
 }
@@ -36,6 +38,7 @@ int main()
     int b = 12;
     int ucln = calcUCLN(a, b);
     int bcnn = calcBCNN(a, b);
+    // =>
 
     // In ra giá trị ucln và bcnn
 
@@ -43,5 +46,3 @@ int main()
     printf("BCNN cua %d va %d la: %d\n", a, b, bcnn);
     return 0;
 }
-
-
