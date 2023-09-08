@@ -41,4 +41,5 @@ int main()
     printf("Phan tu lon nhat trong mang la: %d\n & %d\n", max, maxIndex);
     printf("Phan tu nho nhat trong mang la: %d\n & %d\n", min, minIndex);
     return 0;
+    
 }
