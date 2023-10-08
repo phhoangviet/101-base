@@ -1,0 +1,65 @@
+<mxfile host="app.diagrams.net" modified="2023-10-04T03:47:57.511Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0" etag="ZWoOy2VEnoC5zU40bw0f" version="22.0.0" type="google">
+  <diagram name="Page-1" id="yBhhKSPVwgkDOJ9gG-pj">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qBs1tBeWn-5_Wzta3_dQ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qBs1tBeWn-5_Wzta3_dQ-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qBs1tBeWn-5_Wzta3_dQ-1" value="Bắt đầu" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="50" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qBs1tBeWn-5_Wzta3_dQ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qBs1tBeWn-5_Wzta3_dQ-4" target="qBs1tBeWn-5_Wzta3_dQ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBs1tBeWn-5_Wzta3_dQ-4" value="nhập tên của&lt;br&gt;sản phẩm&lt;br&gt;số lượng&amp;nbsp;&lt;br&gt;đơn giá" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="353" y="200" width="145" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="qBs1tBeWn-5_Wzta3_dQ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qBs1tBeWn-5_Wzta3_dQ-6" target="qBs1tBeWn-5_Wzta3_dQ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBs1tBeWn-5_Wzta3_dQ-6" value="Tính&amp;nbsp;&lt;br&gt;Tiền = số lượng * đơn giá&lt;br&gt;VAT = tiền * 10%" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="480" width="165" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qBs1tBeWn-5_Wzta3_dQ-8" value="Xuất ra giá trị VAT và tiền" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="640" width="165" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qBs1tBeWn-5_Wzta3_dQ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qBs1tBeWn-5_Wzta3_dQ-10" target="qBs1tBeWn-5_Wzta3_dQ-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="263" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qBs1tBeWn-5_Wzta3_dQ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qBs1tBeWn-5_Wzta3_dQ-10" target="qBs1tBeWn-5_Wzta3_dQ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBs1tBeWn-5_Wzta3_dQ-10" value="Kiểm tra nếu&amp;nbsp;&lt;br&gt;0&amp;lt;= số lượng&lt;br&gt;0&amp;lt;= Đơn giá" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="338" y="350" width="175" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qBs1tBeWn-5_Wzta3_dQ-13" value="đúng" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="360" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qBs1tBeWn-5_Wzta3_dQ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qBs1tBeWn-5_Wzta3_dQ-14" target="qBs1tBeWn-5_Wzta3_dQ-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="160" />
+              <mxPoint x="462" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qBs1tBeWn-5_Wzta3_dQ-14" value="Yêu cầu nhập chính xác" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBs1tBeWn-5_Wzta3_dQ-16" value="sai" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="360" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
